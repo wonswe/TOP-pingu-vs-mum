@@ -32,9 +32,9 @@ returns roundResult ✅
 - only the newest round result shows ✅
 
 6. think of a more fun way to display the results - the message and the formatting and apply ✅
- - title text fade in from left to right by splitting the title text content, looping through them, 
+ - title-text fade in from left to right by splitting the title text content, looping through them, 
  adding <span></span> for each of them resulting in the final look to be a continuous horizontal text before transition, 
- remove any text content from the original html of <h1> title </h1>, looping through each letter span based on timer, 
+ remove any text content from the original html of the title-text, looping through each letter span based on timer, 
  when class has been added to each of the letter spans, complete the loop by clearing the interval and setting the timer to null; 
  can mess around with the css of the .fade class to create different animation looks. 
 
