@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Pingu vs Mum</title>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  </head>
+
+  <body>
+    <div class="title">
+      <h1>Pingu vs Mum</h1>
+    </div>
+
+    <div class="description">
+      <p id="desc1">Mum wants Pingu to do laundry today . . .</p>
+      <p id="desc2" class="before">but Pingu wants to play with his sister Pinga . . .</p>
+      <p id="desc3" class="before">will Pingu's wish come true ?</p>
+      <p id="cta">Help him win this game !</p>
+    </div>
+
+    <div class="choices">
+      <button class="choice" id="rock" value="Rock"></button>
+      <button class="choice" id="paper" value="Paper"></button>
+      <button class="choice" id="scissors" value="Scissors"></button>
+      <audio id="noot" src="noot.mp3"></audio>
+      <audio id="nootnoot" src="nootnoot.mp3"></audio>
+    </div>
+
+    <div class="final-results"></div>
+
+    <div class="reload"></div>
+
+    <div class=score-section>
+      <div id="score-label">
+        <p class="label">Pingu</p>
+        <p class="label">Mum</p>
+      </div>
+  
+      <div id="score-container">
+        <div id="player-score" class="score">0</div>
+        <div id="computer-score" class="score">0</div>
+      </div>
+    </div>
+
+    <div class="results"></div>
+
+    </div>
+  </body>
+</html>
