@@ -1,6 +1,7 @@
-This is a Pingu themed rock-paper-scissor game I created as part of the Odin Project Foundation Curriculum.
+# TOP-pingu-vs-mum
+LIVE: https://mingucodes.github.io/TOP-pingu-vs-mum/
 
-Project Link: https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/rock-paper-scissors
+This is a Pingu themed rock-paper-scissor game I created as part of the Odin Project Foundation Curriculum.
 
 Below are some notes I've taken in the process for my own reference. 
 
